@@ -1,0 +1,10 @@
+.\objects\stm32f4xx_fmc.o: ..\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f4xx_fmc.c
+.\objects\stm32f4xx_fmc.o: ..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\CMSIS\DeviceSupport\stm32f4xx.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\CMSIS\CoreSupport\core_cm4.h
+.\objects\stm32f4xx_fmc.o: D:\Keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\CMSIS\CoreSupport\core_cmInstr.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\CMSIS\CoreSupport\core_cmFunc.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\CMSIS\CoreSupport\core_cm4_simd.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\CMSIS\DeviceSupport\system_stm32f4xx.h
+.\objects\stm32f4xx_fmc.o: ..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
