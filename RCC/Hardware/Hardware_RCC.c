@@ -2,7 +2,6 @@
 
 void RCC_Init(void)
 {
-	RCC_ClocksTypeDef	RCC_Clocks;
 	ErrorStatus		HSEStartUpStatus;
 	
 	/*把RCC外设初始化为复位状态*/
@@ -41,7 +40,6 @@ void RCC_Init(void)
 		{
 		}
 		RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
-		RCC_GetClocksFreq(&RCC_Clocks);     
 		while(RCC_GetSYSCLKSource() != 0x08)                  
 		{
 		}
